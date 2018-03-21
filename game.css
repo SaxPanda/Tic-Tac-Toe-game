@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    background-color:grey;
+    background-image: url("https://i.pinimg.com/736x/e7/1f/a2/e71fa2f33483110010587f5fdd1a075b--rainbow-unicorn-the-unicorn.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: fixed;
+    
+    padding: 10% 0; 
+}
+
+.content {
+    margin: auto;
+    width: 60%;
+    border: 2px outset;
+    border-radius: 5px;
+    box-shadow: 0px 10px 5px #555;
+    padding: 10px;
+    background: white;
+    text-align: center;
+    opacity: 0.6;
+
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+}
+button {
+    font-family: 'Play', cursive;
+    font-size: x-large;
+    display: table-cell;
+    width: 80%;
+    margin: 12px;
+    padding: 8px;
+
+}
+
+    .board div {
+        font-family: 'Lobster', cursive;
+        font-size: 4em;
+        width: 31%;
+        background-color: white;
+        display : inline-block;
+    }
+    .right { border-right: 6px solid #333; }
+    .left { border-left: 6px solid #333; }
+    .bottom { border-bottom: 6px solid #333; }
+
+
+
